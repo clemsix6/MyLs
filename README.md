@@ -8,19 +8,19 @@ Le MyLs est un projet qui consiste à re coder la commande Linux ls. Cette comma
 
 ### Fonctionement
 
-Pour lister tous les fichiers dans un dossier donné, le MyLs utilise des fonctiosn système utiles tel le opendir, readir. Les aguments suivants sont gérés par le programme:
+Pour lister tous les fichiers dans un dossier donné, le MyLs utilise des fonctions système utiles tel l'opendir, readir. Les arguments suivants sont gérés par le programme:
 
 * "l" format de grand listing
 * "R" listing recursif
 * "d" affiche uniquement les dossiers
-* "r" recursif dans l'ordre inverse
+* "r" récursif dans l'ordre inverse
 * "t" tri dans l'ordre des dernières modifications
 
 
 
 ### Utilisation
 
-Pour utiliser le MyLs, il faut tapper la commande suivante ./ls \[-lRdrt] \[FILE] où \[-lRdrt] sont les arguments entrés et \[FILE] le fichier cible, ce dernier est facultatif.
+Pour utiliser le MyLs, il faut taper la commande suivante ./ls \[-lRdrt] \[FILE] où \[-lRdrt] sont les arguments entrés et \[FILE] le fichier cible, ce dernier est facultatif.
 
 Différentes syntaxes sont possibles:
 
@@ -61,7 +61,7 @@ lrwxrwxrwx 1 clement clement   67 déc.  17  2021  tradingview_tradingview.deskt
 lrwxrwxrwx 1 clement clement   61 mai   22 17:01  webstorm_webstorm.desktop -> /var/lib/snapd/desktop/applications/webstorm_webstorm.desktop
 ```
 
-Ou encore lister les fichiers dans un dossier donné:
+Où encore lister les fichiers dans un dossier donné:
 
 ```
 clement@clement-neon:~/Desktop$ ./my_ls /usr
